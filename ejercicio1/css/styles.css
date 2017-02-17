@@ -1,0 +1,35 @@
+#container {
+	width: 960px;
+	margin: 10px auto;
+	padding: 20px;
+	position: relative;
+  	height: auto;
+    overflow: auto;
+}
+
+#header, #content {
+	width: 100%;
+}
+
+#logo {
+	width: 150px;
+	margin: 10px auto 25px auto;
+}
+
+.column {
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
+
+ul#navigation {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#navigation li{
+	display: inline;
+	margin: 0px 3px;
+}
