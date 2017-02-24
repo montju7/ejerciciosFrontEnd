@@ -1,3 +1,25 @@
+/* Styles */
+
+
+/* Esta seccion intenta hacer un "reset" de los principales elementos html y body
+para que tengan todos los elementos de la caja a cero: bordem padding y margen. */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* en el body hay que definir los estilos de size, espaciado y familia de la fuente.
+Puedes probar de usar PX o EM para asignar los tamaños a la letra.
+Además, la imagen tiene un color en el fondom también puedes agregarlo en el body */
+body {
+font-family: "courier New", Monospace;
+}
+
+/* Estan las clases que posicionan los elementos pero faltan por crear todas las clases
+ vinculadas con textos, enlaces, margin y padding para dar aire a los elementos,
+ crear la clase .on (del menú), la clase .center, la clase .bold y la clase .red */
+
 #container {
 	width: 960px;
 	margin: 10px auto;
@@ -9,6 +31,7 @@
 
 #header, #content {
 	width: 100%;
+	text-align: center;
 }
 
 #logo {
@@ -27,9 +50,22 @@ ul#navigation {
 	padding: 15px;
 	margin: 0px auto;
 	text-align: center;
+	color: black
 }
 
 #navigation li{
 	display: inline;
 	margin: 0px 3px;
 }
+
+.on{ color: red}
+
+.class{}
+
+.bold 
+
+.red{}
+
+.bold1{
+	color: red;
+}  
