@@ -34,6 +34,7 @@ body {
 
 #header, #content {
 	width: 100%;
+	text-align: center;
 }
 
 #logo {
